@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STT Cipasung</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 960px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 16px;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 24px 0;
+    }
+
+    section {
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    form label {
+      display: block;
+      margin-top: 12px;
+    }
+
+    form input {
+      width: 100%;
+      max-width: 500px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 12px;
+      padding: 8px 16px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>STT Cipasung</h1>
+
+    <nav aria-label="Navigasi utama">
+      <ul>
+        <li><a href="#about">Home</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>STT Cipasung is a technology college in Tasikmalaya.</p>
+
+      <img
+        src="https://placehold.co/600x300?text=STT+Cipasung"
+        alt="STT Cipasung"
+      >
+    </section>
+
+    <section id="programs">
+      <h2>Programs</h2>
+      <p>STT Cipasung menyediakan berbagai program pendidikan di bidang teknologi.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 STT Cipasung</p>
+  </footer>
+
+</body>
+</html>
